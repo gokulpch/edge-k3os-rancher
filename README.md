@@ -23,4 +23,5 @@ Cloud Init for installing/managing edge K3OS Hosts using remote Rancher
 
 # IPSEC VPN - CGW AWS
 
-https://hackmd.io/-vkARIFSRyq1PU1wO268ig?utm_content=buffer89fdf&utm_medium=social&utm_source=twitter.com&utm_campaign=buffer
+###### https://hackmd.io/-vkARIFSRyq1PU1wO268ig?utm_content=buffer89fdf&utm_medium=social&utm_source=twitter.com&utm_campaign=buffer
+###### https://medium.com/@pahud/turn-raspberry-pi-into-aws-vpn-customer-gateway-with-docker-41b200140e7c#.v0bl2gz7f
