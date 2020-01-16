@@ -1,0 +1,29 @@
+ssh_authorized_keys:
+- github:jdbohrman
+write_files:
+- encoding: ""
+  content: |-
+    #!/bin/bash
+    mkdir -p '/var/lib/rancher/k3s/server/manifests/'
+    curl -L https://gist.githubusercontent.com/jdbohrman/714bb13d8b8404f647174d9132f5f320/raw/de0c3825d03aa84c70f95e7a4445802e53dabddb/call-rancher.yaml >> /var/lib/rancher/k3s/server/manifests/call-rancher.yaml
+  owner: root
+  path: /etc/rc.local
+  permissions: '0755'
+hostname: k3os-master
+run_cmd:
+- "sh /etc/rc.local"
+boot_cmd:
+- "echo hi from boot time && echo bye from boot time"
+init_cmd:
+- "echo hi on init && echo bye on init"
+k3os:
+  token: super-secure-local-cluster-token
+  dns_nameservers:
+  - 8.8.8.8
+  - 1.1.1.1
+  ntp_servers:
+  - 0.us.pool.ntp.org
+  - 1.us.pool.ntp.org
+  k3s_args:
+  - server
+  - "--no-deploy=traefik"
