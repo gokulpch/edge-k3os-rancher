@@ -18,3 +18,4 @@ Cloud Init for installing/managing edge K3OS Hosts using remote Rancher
 
 # Feeding Cloud Init URL While installing K3OS
 
+![Image](https://github.com/gokulpch/edge-k3os-rancher/blob/master/Screen%20Shot%202020-01-16%20at%201.43.34%20PM.png)
