@@ -14,3 +14,7 @@ Cloud Init for installing/managing edge K3OS Hosts using remote Rancher
 6. Extract the Cluster ID
 7. Generate the Registration token
 8. Output the yaml to a /manifests folder
+
+
+# Feeding Cloud Init URL While installing K3OS
+
