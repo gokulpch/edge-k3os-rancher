@@ -31,7 +31,8 @@ Cloud Init for installing/managing edge K3OS Hosts using remote Rancher
 
 Follow this for installling K3OS:
 
-https://github.com/sgielen/picl-k3os-image-generator
+* https://github.com/sgielen/picl-k3os-image-generator
+* https://github.com/pagong/k3os-on-arm/tree/master/arm64/raspberry-pi3
 
 # Installing K3OS on Raspberry PI
 
